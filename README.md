@@ -4,9 +4,18 @@
 
 Make sure you have node.js and npm installed on you machine
 
+## Clone 
+
+clone the repository on your system using the ```git clone``` command
+
+
 ## branch-backend setup
 
 Change directory to ```branch-backend```
+
+create a ```.env``` file and add the field mongo_uri to it
+
+assign ```mongo_uri=``` equal to the mongo uri sent in the mail
 
 Run the following command to install the node modules
 
