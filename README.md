@@ -1,5 +1,12 @@
 # branch-international-assignment
 
+## Additional Features Implemented
+
+1. Figure out a scheme to help agents divide work amongst themselves, and to prevent multiple agents working on the same message at once.
+2. Implement a canned message feature that allows agents to quickly respond to enquiries using a set of pre-configured stock messages.
+3. Make the agent UI (and/or the customer-facing UI) more interactive by leveraging websockets or similar technology, so that new incoming messages can show up in realtime.
+4. Implement a canned message feature that allows agents to quickly respond to enquiries using a set of pre-configured stock messages
+
 ## Initial Setup
 
 Make sure you have node.js and npm installed on you machine
