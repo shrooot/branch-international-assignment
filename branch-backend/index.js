@@ -2,6 +2,8 @@
 const mongoose = require('mongoose');
 const express = require('express')
 const cors = require('cors')
+const dotenv = require('dotenv');
+dotenv.config();
 
 const messageRouter = require('./routes/message.route')
 const userRouter = require('./routes/user.route')
@@ -20,7 +22,7 @@ app.use("/user", userRouter)
 app.use("/agent", agentRouter)
 
 
-const uri = "mongodb+srv://shrooot:qweasdzxc@freecluster.ifgjndb.mongodb.net/?retryWrites=true&w=majority&ssl=true";
+const uri = process.env.mongo_uri;
 const PORT = 8080
 const HOST = "localhost"
 
